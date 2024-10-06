@@ -10,4 +10,6 @@ pub enum StakeError {
     CollectionNotVerified,
     #[msg("Max stake reached")]
     MaxStakeReached,
+    #[msg("Cannot unstake yet")]
+    CannotUnstakeYet,
 }
